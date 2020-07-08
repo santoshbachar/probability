@@ -13,7 +13,7 @@ public class ProbabilityTest {
     }
 
     @Test
-    public void test_whenInputValueIsZero_shouldReturnHeads() {
+    public void test_whenProbabilityOfTwoEventsIsEqual_shouldReturnTrue() {
         boolean result1 = event1.compare(event2);
         boolean expectedOutput = true;
         assertEquals(expectedOutput, result1);
